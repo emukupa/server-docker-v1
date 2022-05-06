@@ -4,6 +4,8 @@
   "description": "creating a docker server",
   "main": "src/index.js",
   "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
     "test": "jest"
   },
   "repository": {
